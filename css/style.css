@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: #D6DBDF;
   margin: 0;
   display: flex;
   align-items: center;
@@ -96,6 +96,20 @@ body {
         left: calc(50% - 210px);
         transition: .5s;
         outline: none;
+}
+
+.header{
+  width: 100%;
+  margin: auto;
+  margin-bottom: -100px;
+  position: fixed;
+  font-family: "Lucida Console";
+  top: 0;
+  text-align: center;
+}
+
+h1{
+color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
 }
 
 .btn-start:hover {
