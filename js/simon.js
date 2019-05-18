@@ -5,7 +5,7 @@ const verde = document.getElementById('verde')
 const btnEmpezar = document.getElementById('btnEmpezar')
 const ganador = new Audio('audio/ganador.mp3')
 const perdedor = new Audio('audio/perdedor.mp3')
-const ULTIMO_NIVEL = 10
+const ULTIMO_NIVEL = 2
 
 class Juego {
   constructor() {
